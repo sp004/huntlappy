@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+li{
+  list-style: none;
+}
+
+.price{
+  color: rgb(255, 0, 0);
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.prevprice{
+  text-decoration: line-through;
+  color: gray;
+  font-size: 15px;
+}
+
+body{
+  font-family: 'Nunito', sans-serif;;
+}

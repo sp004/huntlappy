@@ -1,0 +1,32 @@
+.filters{
+    margin: 1rem 0;
+}
+
+.filter-detail{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+
+
+.filter-item{
+    padding: 8px 15px;
+    border-radius: 20px;
+    background-color: lightgrey;
+    position: relative;
+}
+
+.filter-option{
+    position: absolute;
+    transform: translateY(5%);
+    left: 0;
+    width: fit-content;
+    height: fit-content;
+    background-color: #fff;
+    border: 1px solid grey;
+    padding: 1rem;
+    border-radius: 5px;
+}
