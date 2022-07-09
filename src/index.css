@@ -27,6 +27,15 @@ li{
   font-size: 15px;
 }
 
+.notfound{
+  text-align: center;
+  display: grid;
+  place-items: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 2rem auto;
+}
+
 body{
   font-family: 'Nunito', sans-serif;;
 }

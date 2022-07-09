@@ -5,6 +5,7 @@ import classes from './App.module.css'
 import LaptopContextProvider from './context/laptop-context';
 import Footer from './components/Footer/Footer';
 import Navbar from './components/Header/Navbar';
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
             <Routes>
               <Route path='/' element={<Home />} />
               <Route path='/laptop/:model' element={<LaptopDetails />} />
+              <Route path='*' element={<NotFound />} />
             </Routes>
         </div>
         <Footer />
